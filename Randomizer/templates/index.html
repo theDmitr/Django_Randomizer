@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+    <title>Randomizer</title>
+    <link rel="stylesheet" href="{% static "css/styles.css" %}" />
+    <link rel="icon" type="image/x-icon" href="{% static "images/favicon.ico" %}" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="sign">
+            <span class="textblock">
+                <h2>Случайное число</h2>
+                <h1 id="random_digit">0</h1>
+            </span>
+        </div>
+    </div>
+    <script type="text/javascript" src="{% static "js/script.js" %}"></script>
+</body>
+
+</html>
